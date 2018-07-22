@@ -10,10 +10,9 @@
 .App .Footer {
   align-self: stretch;
   justify-self: stretch;
-  border: 1px solid #ccc;
 }
 
 .App .Navbar,
 .App .Footer {
-  background-color: #dbdbdb;
+
 }
