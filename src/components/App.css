@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 65px 1fr 65px;
+  grid-template-columns: 1fr;
+}
+
+.App .Navbar,
+.App .Router,
+.App .Footer {
+  align-self: stretch;
+  justify-self: stretch;
+  border: 1px solid #ccc;
+}
+
+.App .Navbar,
+.App .Footer {
+  background-color: #dbdbdb;
+}
