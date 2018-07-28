@@ -17,8 +17,6 @@ class LandingPage extends Component {
           <p>Building librairies in Ethiopia</p>
           <iframe
             title="amadeen"
-            width="80%"
-            height="60%"
             src="https://www.youtube.com/embed/Yq8rjPQ9hZs?rel=0"
             frameborder="0"
             allow="autoplay; encrypted-media"
