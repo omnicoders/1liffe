@@ -1,3 +1,26 @@
 .LandingPage {
-  padding: 12px;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 0.55fr 1fr;
+}
+
+.profile {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.intro {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.display {
+  background-color: lightgrey;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
