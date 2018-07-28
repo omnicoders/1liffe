@@ -1,11 +1,9 @@
 @media screen and (max-width: 480px) {
-  /* mobile */
   .LandingPage {
     height: 80vh;
   }
-
   iframe {
-    margin-top: 20%;
+    margin-top: 15%;
     width: 100%;
     height: 100%;
   }
@@ -13,35 +11,37 @@
     text-align: center;
   }
 }
-/* regular screens */
-.LandingPage {
-  height: 80vh;
-  display: grid;
-  grid-template-columns: 0.55fr 1fr;
-}
 
-.profile {
-  width: 100%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
+@media screen and (min-width: 480px) {
+  .LandingPage {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 0.55fr 1fr;
+  }
 
-.intro {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
+  .profile {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
 
-.display {
-  background-color: lightgrey;
-  width: 100%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
+  .intro {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
 
-iframe {
-  width: 80%;
-  height: 60%;
+  .display {
+    background-color: lightgrey;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  iframe {
+    width: 80%;
+    height: 60%;
+  }
 }
