@@ -1,19 +1,37 @@
 .Navbar {
   display: grid;
-  grid-template-columns: 1fr 0.15fr 0.15fr 0.15fr;
+  grid-template-columns: 1fr 0.5fr;
   align-items: center;
   height: 10vh;
   column-gap: 4px;
 }
 
-.Navbar:nth-child(1) {
-  padding-left: 12px;
+.NavBar:first-child {
+  text-align: left;
 }
 
+.title {
+  text-align: left;
+  padding-left: 12px;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+}
+
+.about,
+.media {
+  text-decoration: none;
+  color: white;
+}
 .contact {
   padding-right: 12px;
+  color: white;
+  text-decoration: none;
 }
 
 p {
   font-size: 1.15em;
+  text-align: center;
 }

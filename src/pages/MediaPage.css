@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+  .MediaPage {
+    display: grid;
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .MediaPage {
+    display: grid;
+    height: 80vh;
+  }
+}
