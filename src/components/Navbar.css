@@ -1,13 +1,6 @@
 .Navbar {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
-  align-items: center;
-  height: 10vh;
-  column-gap: 4px;
-}
-
-.NavBar:first-child {
-  text-align: left;
 }
 
 .title {
@@ -21,17 +14,12 @@
 }
 
 .about,
-.media {
-  text-decoration: none;
-  color: white;
-}
+.media,
 .contact {
-  padding-right: 12px;
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
 p {
-  font-size: 1.15em;
   text-align: center;
 }

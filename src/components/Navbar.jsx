@@ -5,7 +5,7 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <div className="Navbar bg-secondary-2-0">
+      <div className="Navbar">
         <p className="title">1liffe</p>
         <div className="nav">
           <NavLink
