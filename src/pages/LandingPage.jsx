@@ -6,11 +6,9 @@ class LandingPage extends Component {
     return (
       <div className="LandingPage">
         <div className="profile">
-          <div className="intro">
-            <div>
-              <p>Ahmadeen Nassar</p>
-              <p>Founder</p>
-            </div>
+          <div>
+            <p>Ahmadeen Nassar</p>
+            <p>Founder</p>
           </div>
         </div>
         <div className="display">

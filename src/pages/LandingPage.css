@@ -1,6 +1,9 @@
 @media screen and (max-width: 480px) {
   .LandingPage {
     height: 80vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
   }
   iframe {
     margin-bottom: 15%;
@@ -21,15 +24,6 @@
 
   .profile {
     width: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .intro {
-    display: grid;
-    justify-items: center;
-    align-items: center;
   }
 
   .display {
