@@ -5,6 +5,9 @@
     justify-items: center;
     align-items: center;
   }
+  tab1 {
+    padding-left: 2em;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -21,8 +24,11 @@
     padding-right: 30px;
   }
 
+  .description {
+    line-height: 1.5em;
+  }
+
   .display {
-    background-color: lightgrey;
     width: 100%;
     display: grid;
     justify-items: center;
