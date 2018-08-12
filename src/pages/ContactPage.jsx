@@ -5,8 +5,16 @@ class ContactPage extends Component {
   state = {};
   render() {
     return (
-      <div class="ContactPage">
-        <p>Contact Page works</p>
+      <div className="ContactPage">
+        <div className="contactInfo">
+          <p>Linked In</p>
+          <p>FaceBook</p>
+          <p>E-mail</p>
+          <p>Phone</p>
+        </div>
+        <div className="donate">
+          <p>This is where the embeded goFundme page can go</p>
+        </div>
       </div>
     );
   }

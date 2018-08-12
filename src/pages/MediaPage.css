@@ -11,5 +11,7 @@
   .MediaPage {
     height: 80vh;
     display: grid;
+    justify-items: center;
+    align-items: center;
   }
 }

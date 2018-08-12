@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import Navbar from './Navbar';
-import Router from './Router';
-import Footer from './Footer';
+import React, { Component } from "react";
+import "./App.css";
+import Navbar from "./Navbar";
+import Router from "./Router";
+import Footer from "./Footer";
 
 class App extends Component {
   render() {

@@ -16,9 +16,9 @@ class LandingPage extends Component {
           <iframe
             title="amadeen"
             src="https://www.youtube.com/embed/Yq8rjPQ9hZs?rel=0"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; encrypted-media"
-            allowfullscreen
+            allowFullScreen
           />
         </div>
       </div>
